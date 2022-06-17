@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  /* border: 1px solid green; */
+  margin: auto;
+  display: flex;
+  width: 70vw;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
+
+.Sedans {
+  /* height: 100%; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: flex-start; */
+  padding: 3em;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.Suvs {
+  /* height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  padding: 3em;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+  /* height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  padding: 3em;
+  background-color: hsl(179, 100%, 13%);
+}
+
+button {
+  margin-top: auto;
+  border: none;
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 25px;
+  padding: 15px 0px;
+  width: 60%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.Sedans button{
+    color: hsl(31, 77%, 52%);
+}
+
+.Suvs button{
+    color: hsl(184, 100%, 22%);
+}
+.Luxury button{
+    color: hsl(179, 100%, 13%);
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  padding: 1em 0em 0.5em 0em;
+  font-size: 33px;
+}
+p {
+    width: 90%;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  padding: 1em 0em 4em 0em;
+  line-height: 2.0em;
+}
+
+/* @media only screen and  (min-width:375px) {
+    .container{
+        flex-direction: column; 
+    }
+    
+}
+@media only screen and  (min-width:600px) {
+    .container{
+        flex-direction: row;
+        flex: 100%;
+    }
+} */
+
